@@ -13,6 +13,17 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <widget class="QSlider" name="liftRSlider">
+    <property name="minimum">
+      <number>-2000</number>
+    </property>
+    <property name="maximum">
+      <number>2000</number>
+    </property>
+    <property name="orientation">
+      <enum>Qt::Vertical</enum>
+    </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

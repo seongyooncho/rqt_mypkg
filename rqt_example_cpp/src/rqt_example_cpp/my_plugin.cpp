@@ -29,6 +29,9 @@ void MyPlugin::initPlugin(qt_gui_cpp::PluginContext& context)
   ui_.setupUi(widget_);
   // add widget to the user interface
   context.addWidget(widget_);
+
+  QSlider *liftRSlider = widget_->findChild<QSlider*>("liftRSlider");
+  liftRSlider->setValue(2000);
 }
 
 void MyPlugin::shutdownPlugin()
